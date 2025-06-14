@@ -1,0 +1,134 @@
+.portfolio img {
+    width: 550px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.portfolio .information {
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    justify-content: space-between;
+}
+
+.portfolio .information button {
+    margin: 20px 0;
+    width: 100%;
+    background: #613954;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 7px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.containers {
+    position: relative;
+    overflow-x: hidden;
+    padding: 10px;
+}
+
+.sliders {
+    overflow: hidden;
+    display: flex;
+    padding: 30px 40px;
+}
+
+.sliders .slides {
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-right: 17px;
+    transition: 0.5s;
+    animation: swipe 3000ms linear infinite;
+    position: relative;
+}
+
+.sliders .slides img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.slides {
+    position: relative;
+    width: 100%;
+    float: left;
+    height: 85vh;
+}
+
+.slides {
+    background-size: cover;
+}
+
+@keyframes swipe {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.slideshow {
+    background-color: #000;
+    list-style: none;
+    z-index: 0;
+}
+
+.slideshow li {
+    animation: imageAnimation 20s linear infinite;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.slideshow li:nth-child(1) {
+    background-image: linear-gradient(rgba( 0, 0, 0, 0.5), rgba( 0, 0, 0, 0.5)),
+    url(img/img01.png);
+    animation-delay: 0s;
+}
+.slideshow li:nth-child(2) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(Pictures/Picture6.png);
+    animation-delay: 5s;
+}
+.slideshow li:nth-child(3) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(img/img03.PNG);
+    animation-delay: 10s;
+}
+.slideshow li:nth-child(4) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(Pictures/pic3.jpg);
+    animation-delay: 15s;
+}
+
+@keyframes imageAnimation {
+    0% {
+        opacity: 0;
+        animation-timing-function: ease;
+    }
+    10% {
+        opacity: 1;
+        animation-timing-function: ease;
+    }
+    20% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }    
+}
