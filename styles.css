@@ -10,7 +10,8 @@
     max-width: 100%;
     padding: 2em;
     text-align: center;
-    background-color: rgba(0, 0, 17, 0.959);
+    background-color: #40474e;
+    /*==background-color: rgba(0, 0, 17, 0.959);==*/
     border-radius: 10px;
 }
 
