@@ -1,3 +1,19 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.cards {
+    max-width: 100%;
+    padding: 2em;
+    text-align: center;
+    background-color: rgba(0, 0, 17, 0.959);
+    border-radius: 10px;
+}
+
 .portfolio img {
     width: 550px;
     height: 400px;
