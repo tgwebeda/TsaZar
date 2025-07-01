@@ -13,6 +13,12 @@
     border-radius: 10px;
 }
 
+.cards img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
 .portfolio img {
     width: 550px;
     height: 400px;
