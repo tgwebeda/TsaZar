@@ -124,7 +124,7 @@
 }
 .slideshow li:nth-child(2) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(img/14.png);
+        url(img/14.PNG);
     animation-delay: 5s;
 }
 .slideshow li:nth-child(3) {
