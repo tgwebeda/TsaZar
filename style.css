@@ -12,69 +12,14 @@ body {
   display: block;
 }
 /*====NavBar====*/
-.navbar {
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: .9rem;
-  letter-spacing: .1rem;
-  background: rgba(0, 0, 0, .6)!important;
-}
-.navbar-brand img{
-  height: 2rem;
-}
-.navbar-nav li {
-  padding-right: .7rem;
-}
-.navbar-dark .navbar-nav .nav-link {
-  color: #ffff;
-  padding-top: .8rem;
-}
-.navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .nav-link:hover {
-  color: #1ebba3;
-}
-/*====Slider====*/
-.carousel-item {
-  height: 100vh;
-}
 
-.carousel-caption {
-  position: absolute;
-  top: 38%;
-  text-transform: none;
-  width: 100%;
-  right: 0;
-  left: 0;
-}
-.carousel-caption h1{
-  font-size: 2.8rem;
-  font-weight: 800;
-  letter-spacing: .3rem;
-  text-shadow: .1rem .1rem .8rem black;
-  padding-bottom: 1rem;
-}
-.carousel-caption h3 {
-  font-size: 1.5rem;
-  text-shadow: .1rem .1rem .5rem black;
-  padding-bottom: 1.6rem;
-}
-.btn-lg {
-  border-width: medium;
-  border-radius: 0;
-  padding: .6rem 1.1rem;
-  text-transform: uppercase;
-  margin: 1rem;
-}
-.jumbotron {
-  border-radius: 0;
-  padding: 3rem 0 2rem;
-}
 h2.heading {
   font-size: 1.2rem;
   font-weight: 700;
   text-transform: uppercase;
   padding: .5rem;
 }
+
 h3.heading {
   font-size: 1.9rem;
   font-weight: 700;
@@ -82,7 +27,7 @@ h3.heading {
   padding: .5rem;
 }
 .heading-underline {
-  width: 3rem;
+  width: 6rem;
   height: .2rem;
   background-color: #1ebba3;
   margin: 0 auto 2rem;
@@ -160,7 +105,7 @@ h3.heading {
 }
 /*====CONTACT====*/
 footer {
-  background-color: #40474e;
+  background-color: rgba(0, 0, 17, 0.959);
   color: #ffff;
   padding: 2rem 0 3rem;
   margin-top: 1rem;
@@ -190,30 +135,7 @@ hr.socket {
   margin: 0 auto;
   padding-top: 2rem;
 }
-.btn-md {
-  border-width: medium;
-  border-radius: 0;
-  padding: .6rem 1.1rem;
-  text-transform: uppercase;
-  margin: 1rem;
-}
-.btn-secondary {
-  border-width: medium;
-  border-radius: 0;
-  padding: .6rem 1.2rem;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  margin: 1rem;
-  border-color: #613954;
-  background-color: #613954;
-  color: white;
-}
-.btn-secondary:hover,
-.btn-secondary:focus {
-  border-color: #613954;
-  background-color: #613954;
-  color: white;
-}
+
 /*====MEDIA QUERIES====*/
 @media (max-width: 767px) {
     .carousel-caption h1 {
